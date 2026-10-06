@@ -1409,3 +1409,73 @@ footer p {
   }
 
 }
+
+/* =========================
+   SNS
+========================= */
+
+.sns-area {
+  position: relative;
+  z-index: 2;
+  margin-top: 55px;
+  text-align: center;
+}
+
+.sns-title {
+  margin-bottom: 22px;
+  font-size: 9px;
+  letter-spacing: .45em;
+  color: var(--gold);
+}
+
+.sns-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.sns-button {
+  min-width: 135px;
+
+  padding:
+    13px 20px;
+
+  border:
+    1px solid
+    rgba(200, 149, 66, .65);
+
+  background:
+    rgba(0, 0, 0, .6);
+
+  color:
+    var(--gold-light);
+
+  font-family:
+    "DM Serif Display",
+    serif;
+
+  font-size: 12px;
+
+  letter-spacing: .15em;
+
+  transition: .3s;
+}
+
+.sns-button:hover {
+  color: #111;
+
+  background:
+    linear-gradient(
+      180deg,
+      #f4dda0,
+      #c38b35
+    );
+
+  box-shadow:
+    0 0 18px
+    rgba(206, 157, 70, .28);
+
+  transform:
+    translateY(-2px);
+}
